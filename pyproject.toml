@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magellan_tools"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = []
+
+
+[project.scripts]
+mike_slit_orientation = "magellan.scripts.mike_slit_orientation:main"
+
+
+dependencies=["astroplan","astropy"]

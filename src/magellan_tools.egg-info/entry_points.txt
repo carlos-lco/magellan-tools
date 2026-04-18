@@ -1,0 +1,2 @@
+[console_scripts]
+mike_slit_orientation = magellan.scripts.mike_slit_orientation:main
