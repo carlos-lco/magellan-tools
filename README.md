@@ -3,6 +3,7 @@ Suite of simple scripts to prepare catalogs and observations.
 
 
 This is a test.
+And other test.
 
 ---
 Carlos
