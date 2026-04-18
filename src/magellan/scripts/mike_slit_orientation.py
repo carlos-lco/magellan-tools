@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 from astroplan import Observer
 LCO = Observer.at_site("Las Campanas Observatory")
 from astropy.coordinates import EarthLocation

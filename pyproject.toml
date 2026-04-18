@@ -6,10 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "magellan_tools"
 version = "0.1.0"
 requires-python = ">=3.9"
-dependencies=["astroplan","astropy"]
+dependencies=["astroplan","astropy","scipy","astroquery"]
 
 
 [project.scripts]
 mike_slit_orientation = "magellan.scripts.mike_slit_orientation:main"
+mike_exposure_time_estimator = "magellan.scripts.mike_exposure_time_estimator:main"
 
 

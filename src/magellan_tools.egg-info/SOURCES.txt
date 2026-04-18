@@ -2,9 +2,11 @@ README.md
 pyproject.toml
 src/magellan/__init__.py
 src/magellan/core.py
+src/magellan/scripts/mike_exposure_time_estimator.py
 src/magellan/scripts/mike_slit_orientation.py
 src/magellan_tools.egg-info/PKG-INFO
 src/magellan_tools.egg-info/SOURCES.txt
 src/magellan_tools.egg-info/dependency_links.txt
 src/magellan_tools.egg-info/entry_points.txt
+src/magellan_tools.egg-info/requires.txt
 src/magellan_tools.egg-info/top_level.txt

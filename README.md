@@ -17,5 +17,31 @@ Usage:
 
 ```
 
+
+### mike_exposure_time_estimator
+
+
+Usage 1, for a known star:
+
+```
+>  mike_exposure_time_estimator  LTT4364  100     1.6     0.85     0.70        2 
+
+-----LTT4364-----
+  V: 11.51  required S/N: 100.0 --> Exposure Time:   279.9 sec  [binn-Y: 2, seeing: 0.85, airmass: 1.60, slit: 0.70"]
+
+```
+
+Usage 2, for a given V magnitude:
+```
+>  mike_exposure_time_estimator  star-X  100     1.6     0.85     0.70        2  13
+
+-----star-X-----
+  V: 13.00  required S/N: 100.0 --> Exposure Time:  1101.0 sec  [binn-Y: 2, seeing: 0.85, airmass: 1.60, slit: 0.70"]
+
+```
+
+
+
+
 ---
 Carlos

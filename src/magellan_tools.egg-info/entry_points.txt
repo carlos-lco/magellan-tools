@@ -1,2 +1,3 @@
 [console_scripts]
+mike_exposure_time_estimator = magellan.scripts.mike_exposure_time_estimator:main
 mike_slit_orientation = magellan.scripts.mike_slit_orientation:main
