@@ -25,7 +25,7 @@ observability of the target (must be > 20 degrees).
 
 Usage:
 
-    MIKE_predict   ra(deg)  dec(deg)  yy(int)  mm(int)  dd(int)   hhh(int)  mmm(int)
+    MIKE_predict   ra    dec   yy(int)  mm(int)  dd(int)   hhh(int)  mmm(int)
 
 
 
