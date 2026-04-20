@@ -1,7 +1,11 @@
 # MIKE Exposure Time Estimator
 
 Description
-- Estimates a first-guess exposure time to achieve a requested S/N for MIKE given airmass, seeing, slit-width and binning.
+- This tool estimates an exposure time to achieve a requested S/N around 5500 AA (V band) 
+with MIKE at given airmass, seeing, slit-width and binning.
+This is just a zero order approximation, to have a rough idea of the exposure time needed
+for a given target, and to be fine tuned during observations.
+
 
 Usage:
 
