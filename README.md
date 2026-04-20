@@ -9,6 +9,13 @@ Click the tool you want to read about:
 - [MIKE Slit Orientation Predictor](docs/slit_orientation.md)
 
 
+
+## Installation
+
+```
+  pip  install   git+https://github.com/carlos-lco/magellan-tools
+```
+
 ---
 
 
