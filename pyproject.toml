@@ -12,5 +12,7 @@ dependencies=["astroplan","astropy","scipy","astroquery"]
 [project.scripts]
 mike_slit_orientation = "magellan.scripts.mike_slit_orientation:main"
 mike_exposure_time_estimator = "magellan.scripts.mike_exposure_time_estimator:main"
+magellan_stars_coords = "magellan.scripts.magellan_stars_coords:main"
+magellan_asteroids_ephemeris="magellan.scripts.magellan_asteroids_ephemeris:main"
 
 

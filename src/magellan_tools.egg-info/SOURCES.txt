@@ -2,6 +2,8 @@ README.md
 pyproject.toml
 src/magellan/__init__.py
 src/magellan/core.py
+src/magellan/scripts/magellan_asteroids_ephemeris.py
+src/magellan/scripts/magellan_stars_coords.py
 src/magellan/scripts/mike_exposure_time_estimator.py
 src/magellan/scripts/mike_slit_orientation.py
 src/magellan_tools.egg-info/PKG-INFO

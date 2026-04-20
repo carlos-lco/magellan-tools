@@ -10,7 +10,7 @@ customSimbad.add_votable_fields('pmra','pmdec','flux(V)')
 
 txt='''
 
-This tool gives a good guess of exposure time in order to get some S/N in the order # 62 (~5500 AA)
+This tool gives a first guess of exposure time in order to get some S/N in the order # 62 (Vmag, ~5500 AA)
 given airmass, seeing, slit-width and binning in Y direction.
 
 
@@ -66,7 +66,7 @@ else:
 Tau =erf(0.8325*slit/seeing)
 k_V = 0.11 # From ESO web page: https://www.eso.org/sci/observing/tools/Extinction.html
 Sy = 0.05*binn_y #
-M_V = 17.70 # from Marcelos's numbers       #18.4  from LCO Manual , example
+M_V = 17.70 # from Marcelos's numbers
 Iv = pow(10, 0.4*(M_V - m_V - k_V * (airm - 1)))
 expt = ( s2n_req **2 ) / (Iv * Sy * Tau)
     

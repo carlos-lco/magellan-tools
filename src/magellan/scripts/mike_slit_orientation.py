@@ -6,14 +6,14 @@ Clay_location=EarthLocation.from_geodetic(-70.6925*u.deg, -29.01403*u.deg,2390*u
 LCO_Clay = Observer(location=Clay_location, name="Clay", timezone="America/Santiago")
 from astropy.time import Time
 from astropy.coordinates import SkyCoord
-from magellan.core import ra2deg,dec2deg
+from magellan.core import ra_equ2deg,dec_equ2deg
 import sys,os
 
 
 txt='''
 
 
-This tool helps the user to plan a MIKE night, i.e. to select the best time to observe
+This tool helps the user to plan a MIKE observation, i.e. selecting the best time to observe
 a target with a specific PA (Position Angle). For example, when a neighbor object
 needs to be avoided, or when a specific orientation is needed for an extended object
 or any other case. The resulting PA corresponds to the slit's orientation at the moment  
@@ -51,8 +51,8 @@ if(len(sys.argv)!=8):
 
 
 
-ra_t = ra2deg( sys.argv[1])
-de_t = dec2deg(sys.argv[2])
+ra_t =  ra_equ2deg(sys.argv[1])
+de_t = dec_equ2deg(sys.argv[2])
 
 yy = int(sys.argv[3])
 mm = int(sys.argv[4])

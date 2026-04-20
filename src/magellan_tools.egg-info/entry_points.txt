@@ -1,3 +1,5 @@
 [console_scripts]
+magellan_asteroids_ephemeris = magellan.scripts.magellan_asteroids_ephemeris:main
+magellan_stars_coords = magellan.scripts.magellan_stars_coords:main
 mike_exposure_time_estimator = magellan.scripts.mike_exposure_time_estimator:main
 mike_slit_orientation = magellan.scripts.mike_slit_orientation:main
