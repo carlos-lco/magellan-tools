@@ -1,0 +1,10 @@
+site_name: Magellan Tools
+nav:
+  - Home: index.md
+  - Asteroids Ephemeris: asteroids_ephemeris.md
+  - Stars Coordinates: stars_coords.md
+  - MIKE Exposure Estimator: exposure_time_estimator.md
+  - MIKE Slit Orientation: slit_orientation.md
+
+theme:
+  name: readthedocs
