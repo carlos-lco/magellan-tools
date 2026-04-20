@@ -5,21 +5,21 @@ Description
 
 Usage:
 ```
-> asteroids_magellan_ephemeris NAME UT-DATE-START UT-DATE-END TIME-STEP
+> magellan_asteroids_ephemeris NAME UT-DATE-START UT-DATE-END TIME-STEP
 ```
 
 Examples
 
 ```
-> asteroids_magellan_ephemeris 87306 2022-05-21 2022-05-22 10m
+> magellan_asteroids_ephemeris 87306 2022-05-21 2022-05-22 10m
 
-> asteroids_magellan_ephemeris 87306 2022-05-21 2022-05-22 1h
+> magellan_asteroids_ephemeris 87306 2022-05-21 2022-05-22 1h
 ```
 
 Comets can be queried as well, but using the last orbit's ID. For example:
 
 ```
-> asteroids_magellan_ephemeris 90004899  2022-05-21  2022-05-22   10m
+> magellan_asteroids_ephemeris 90004899  2022-05-21  2022-05-22   10m
 ```
 
 Notes
