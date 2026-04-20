@@ -45,7 +45,10 @@ where the input file contains 7 columns:
     ...
 
 
+
+
 Available modes: GRV, EQU, OFF &  HRZ.
+
 Available insturments:  MIKE, LDSS3C, IMACS, MAGE, FOURSTAR, FIRE_ECHELLE, FIRE_LONGSLIT.
 
 
