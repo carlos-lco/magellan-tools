@@ -1,9 +1,4 @@
 # magellan-tools
-Suite of simple scripts to prepare catalogs and observations.
-
-
-
-
 
 Suite of simple scripts to prepare catalogs and observations.
 Click the tool you want to read about:
