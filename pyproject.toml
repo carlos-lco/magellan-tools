@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "magellan_tools"
 version = "0.1.0"
-requires-python = ">=3.12"
+requires-python = ">=3.9"
 dependencies=["astroplan","astropy","scipy","astroquery>=0.4.11"]
 
 
