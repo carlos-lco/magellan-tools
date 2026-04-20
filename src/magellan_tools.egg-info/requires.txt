@@ -1,4 +1,4 @@
 astroplan
 astropy
 scipy
-astroquery
+astroquery>=0.4.11
