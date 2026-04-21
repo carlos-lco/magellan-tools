@@ -5,7 +5,7 @@ import os,sys
 
 # Available instruments
 modes = ['HRZ','EQU','OFF','GRV']
-instruments=['IMACS','MAGE','MIKE','LDSS3','FIRE_ECHELLE','FIRE_LONGSLIT','FOURSTAR']
+instruments=['IMACS','MAGE','MIKE','LDSS3C','FIRE_ECHELLE','FIRE_LONGSLIT','FOURSTAR']
 
 
 
