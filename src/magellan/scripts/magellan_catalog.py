@@ -5,7 +5,7 @@ import os,sys
 
 # Available instruments
 modes = ['HRZ','EQU','OFF','GRV']
-instruments=['IMACS','MAGE','MIKE','LDSS3C','FIRE_ECHELLE','FIRE_LONGSLIT','FOURSTAR']
+instruments=['IMACS','MAGE','MIKE','LDSS3C','FIRE_ECHELLE','FIRE_LONGSLIT','FOURSTAR','LLAMAS']
 
 
 
@@ -27,6 +27,7 @@ Examples:
     >  magellan_catalog   my_targets.txt    FIRE_ECHELLE  EQU  
     >  magellan_catalog   my_targets.txt    FIRE_LONGSLIT OFF  
     >  magellan_catalog   my_targets.txt    FOURSTAR      EQU  
+    >  magellan_catalog   my_targets.txt    LLAMAS        EQU  
 
 
 where the input file contains 7 columns:
@@ -50,7 +51,7 @@ where the input file contains 7 columns:
 
 
 Available modes: GRV, EQU, OFF &  HRZ.
-Available insturments:  MIKE, LDSS3C, IMACS, MAGE, FOURSTAR, FIRE_ECHELLE, FIRE_LONGSLIT.
+Available insturments:  MIKE, LDSS3C, IMACS, MAGE, FOURSTAR, FIRE_ECHELLE, FIRE_LONGSLIT, LLAMAS.
 
 
 '''
@@ -86,6 +87,18 @@ if(inst=='FOURSTAR'):
     for i in range(len(target_name)):
         line='%25s |  %15s | %15s | 2000.0 | %7.3f | Comment'%(target_name[i],ra_coord[i],dec_coord[i],angle[i])
         print(line)
+
+elif(inst=='LLAMAS'):
+    rzp = 0
+    angle = angle + rzp
+    if(mode!='OFF' and mode!='EQU'):
+        mode='EQU'
+    print('Object,RA,Dec,Equinox,RA_Motion_Rate[sec/year],Dec_Motion_Rate[\"/year],RotAngle,RotMode')
+    for i in range(len(target_name)):
+        line='%s,%s,%s,2000.0,%.6f,%.6f,%.3f,%s'%(target_name[i],ra_coord[i],dec_coord[i],mr_ra[i],mr_dec[i],angle[i],mode)
+        print(line)
+
+
 else:
 
     # MIKE
