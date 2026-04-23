@@ -95,7 +95,7 @@ elif(inst=='LLAMAS'):
         mode='EQU'
     print('Object,RA,Dec,Coords_Epoch,RA_Motion_Rate[sec/year],Dec_Motion_Rate[\"/year],PA,RotMode')
     for i in range(len(target_name)):
-        line='%s,%s,%s,2000.0,%.6f,%.6f,%.3f,%s'%(target_name[i],ra_coord[i],dec_coord[i],mr_ra[i],mr_dec[i],angle[i],mode)
+        line='%s,%s,%s,%.2f,%.6f,%.6f,%.3f,%s'%(target_name[i],ra_coord[i],dec_coord[i],epoch[i],mr_ra[i],mr_dec[i],angle[i],mode)
         print(line)
 
 
