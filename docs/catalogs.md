@@ -22,6 +22,7 @@ Examples:
     >  magellan_catalog   my_targets.txt    FIRE_ECHELLE  EQU  
     >  magellan_catalog   my_targets.txt    FIRE_LONGSLIT OFF  
     >  magellan_catalog   my_targets.txt    FOURSTAR      EQU  
+    >  magellan_catalog   my_targets.txt    LLAMAS        EQU  
 ```
 
 
@@ -49,7 +50,7 @@ where the input file contains 7 columns:
 
 Available modes: GRV, EQU, OFF &  HRZ.
 
-Available instruments:  MIKE, LDSS3C, IMACS, MAGE, FOURSTAR, FIRE_ECHELLE, FIRE_LONGSLIT.
+Available instruments:  MIKE, LDSS3C, IMACS, MAGE, FOURSTAR, FIRE_ECHELLE, FIRE_LONGSLIT, LLAMAS.
 
 
 
